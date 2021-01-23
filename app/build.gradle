@@ -7,11 +7,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
     buildFeatures {
-        dataBinding true
         viewBinding = true
     }
     defaultConfig {
-        applicationId "org.person.martin.myapplication"
+        applicationId "org.person.martin.tiptime"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1

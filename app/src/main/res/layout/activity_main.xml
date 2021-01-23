@@ -4,13 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp" >
-    <layout
-        xmlns:android="http://schemas.android.com/apk/res/android">
+    android:padding="16dp"
+    tools:context=".MainActivity">
 
-    <data class=".databinding.ActivityMainBinding">
-        <!-- add variables & imports into here -->
-    </data>
     <EditText
         android:id="@+id/cost_of_service"
         android:layout_width="160dp"
@@ -81,8 +77,5 @@
         android:layout_height="wrap_content"
         android:text="@string/tip_amount"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calculate_button"
-        tools:text="Tip Amount: $10" />/>
-
-    </layout>
+        app:layout_constraintTop_toBottomOf="@id/calculate_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

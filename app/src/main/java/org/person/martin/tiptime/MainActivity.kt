@@ -2,9 +2,10 @@ package org.person.martin.tiptime
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import org.person.martin.myapplication.R
+import org.person.martin.tiptime.databinding.ActivityMainBinding
+import org.person.martin.tiptime.R
 import java.text.NumberFormat
-import org.person.martin.myapplication.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
